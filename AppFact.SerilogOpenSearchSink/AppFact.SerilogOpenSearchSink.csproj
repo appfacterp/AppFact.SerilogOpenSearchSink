@@ -9,7 +9,7 @@
         <Authors>Kirill Polferov</Authors>
         <Company>Fischer &amp; Consultants GmbH</Company>
         
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         
         <RepositoryUrl>https://github.com/appfacterp/AppFact.SerilogOpenSearchSink.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
@@ -18,6 +18,7 @@
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
+        <PackageReadmeFile>../README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
