@@ -5,8 +5,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: dotnet build -c Release
+- task: DotNetCoreCLI@2
   displayName: build
+  inputs:
+    command: 'build'
+    arguments: '-c Release'
 - task: DotNetCoreCLI@2
   displayName: test
   inputs:
