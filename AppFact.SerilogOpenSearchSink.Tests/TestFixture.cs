@@ -53,15 +53,16 @@ public class TestFixture : IAsyncDisposable
         return connSettings;
     }
 
-    public (Logger, OpenSearchClient) GetLogger()
+    public (Logger, OpenSearchClient) GetLogger(OpenSearchSinkOptions? opts = default)
     {
         var connSettings = GetConnectionSettings();
         connSettings.DefaultIndex(Guid.NewGuid().ToString());
-        var sink = new OpenSearchSink(connSettings, new OpenSearchSinkOptions
+        opts ??= new OpenSearchSinkOptions
         {
             Tick = TimeSpan.FromMilliseconds(1),
             MaxBatchSize = null
-        });
+        };
+        var sink = new OpenSearchSink(connSettings, opts);
         var logger = new LoggerConfiguration().WriteTo.Sink(sink).CreateLogger();
         return (logger, sink.Client);
     }

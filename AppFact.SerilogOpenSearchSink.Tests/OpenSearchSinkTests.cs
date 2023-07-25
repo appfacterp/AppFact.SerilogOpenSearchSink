@@ -1,3 +1,5 @@
+using FluentAssertions;
+
 namespace AppFact.SerilogOpenSearchSink.Tests;
 
 public class OpenSearchSinkTests : TestBase
@@ -20,7 +22,7 @@ public class OpenSearchSinkTests : TestBase
         // Assert
         await Task.Delay(2000);
         var result = await client.SearchAsync<OpenSearchSink.Event>(s => s.Query(q => q.MatchAll()));
-        Assert.Equal(1, result.Total);
-        Assert.Equal(message, result.Documents.First().Message);
+        result.Total.Should().Be(1);
+        result.Documents.First().Message.Should().Be(message);
     }
 }
