@@ -6,11 +6,14 @@ pool:
 
 steps:
 - task: DotNetCoreCLI@2
+  displayName: built package
   inputs:
     command: 'pack'
     packagesToPack: 'AppFact.SerilogOpenSearchSink/*.csproj'
     versioningScheme: 'off'
 - task: NuGetCommand@2
+  continueOnError: true
+  displayName: push to nuget.org
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
