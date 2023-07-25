@@ -4,7 +4,7 @@ using Serilog.Core;
 using Serilog.Debugging;
 using Serilog.Events;
 
-namespace SerilogOpenSearch;
+namespace AppFact.SerilogOpenSearchSink;
 
 public class OpenSearchSink : ILogEventSink
 {

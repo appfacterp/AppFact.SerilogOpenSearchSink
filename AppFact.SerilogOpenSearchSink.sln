@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogOpensearch", "SerilogOpensearch\SerilogOpensearch.csproj", "{D9120E7C-DD48-4B02-928C-27D9BA876E00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFact.SerilogOpenSearchSink", "AppFact.SerilogOpenSearchSink\AppFact.SerilogOpenSearchSink.csproj", "{D9120E7C-DD48-4B02-928C-27D9BA876E00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

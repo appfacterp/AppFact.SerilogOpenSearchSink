@@ -2,7 +2,7 @@ using OpenSearch.Client;
 using Serilog;
 using Serilog.Configuration;
 
-namespace SerilogOpenSearch;
+namespace AppFact.SerilogOpenSearchSink;
 
 public static class SerilogExtensions
 {
