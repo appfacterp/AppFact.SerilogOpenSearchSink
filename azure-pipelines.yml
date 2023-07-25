@@ -6,18 +6,20 @@ pool:
 
 steps:
 - script: dotnet build -c Release
+  displayName: build
 - task: DotNetCoreCLI@2
+  displayName: test
   inputs:
     command: 'test'
     arguments: '-c Release --no-build'
 - task: DotNetCoreCLI@2
-  displayName: build package
+  displayName: pack
   inputs:
     command: 'pack'
     packagesToPack: 'AppFact.SerilogOpenSearchSink/*.csproj'
     nobuild: true
     versioningScheme: 'off'
-    buildProperties: '-c Release'
+    buildProperties: '-c Release --no-build'
 - task: NuGetCommand@2
   continueOnError: true
   displayName: push to nuget.org
