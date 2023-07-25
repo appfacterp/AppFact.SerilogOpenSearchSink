@@ -8,10 +8,11 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'pack'
-    packagesToPack: 'AppFact.SerilogOpenSearchSink/**.csproj'
+    packagesToPack: 'AppFact.SerilogOpenSearchSink/*.csproj'
     versioningScheme: 'off'
-- task: PublishBuildArtifacts@1
+- task: DotNetCoreCLI@2
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**.nupkg'
+    nuGetFeedType: 'external'
+    publishFeedCredentials: 'NuGet.Org'
