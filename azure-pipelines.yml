@@ -5,24 +5,14 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: DotNetCoreCLI@2
+- script: dotnet build -c Release
   displayName: build
-  inputs:
-    command: 'build'
-    arguments: '-c Release'
 - task: DotNetCoreCLI@2
   displayName: test
   inputs:
     command: 'test'
     arguments: '-c Release --no-build'
-- task: DotNetCoreCLI@2
-  displayName: pack
-  inputs:
-    command: 'pack'
-    packagesToPack: 'AppFact.SerilogOpenSearchSink/*.csproj'
-    nobuild: true
-    versioningScheme: 'off'
-    buildProperties: '-c Release --no-build'
+- script: dotnet pack -c Release --no-build -o "$(Build.ArtifactStagingDirectory)"
 - task: NuGetCommand@2
   continueOnError: true
   displayName: push to nuget.org
