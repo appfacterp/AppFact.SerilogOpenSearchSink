@@ -6,19 +6,28 @@
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <LangVersion>11</LangVersion>
+        <Authors>Kirill Polferov</Authors>
+        <Company>Fischer &amp; Consultants GmbH</Company>
+        
+        <Version>0.0.1</Version>
+        
+        <RepositoryUrl>https://github.com/appfacterp/AppFact.SerilogOpenSearchSink.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/appfacterp/AppFact.SerilogOpenSearchSink</PackageProjectUrl>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="OpenSearch.Client" Version="1.4.0" />
-      <PackageReference Include="PolySharp" Version="1.13.2">
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      </PackageReference>
-      <PackageReference Include="Serilog" Version="2.12.0" />
+        <PackageReference Include="OpenSearch.Client" Version="1.4.0"/>
+        <PackageReference Include="PolySharp" Version="1.13.2">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Serilog" Version="2.12.0"/>
     </ItemGroup>
-    
-    <PropertyGroup>
-        <Version>0.0.1</Version>
-    </PropertyGroup>
+
 
 </Project>

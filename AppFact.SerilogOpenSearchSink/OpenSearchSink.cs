@@ -6,6 +6,9 @@ using Serilog.Events;
 
 namespace AppFact.SerilogOpenSearchSink;
 
+/// <summary>
+/// Implementation of <see cref="ILogEventSink"/> that sends log events to an OpenSearch cluster.
+/// </summary>
 public class OpenSearchSink : ILogEventSink
 {
     private readonly OpenSearchClient _client;
@@ -17,8 +20,17 @@ public class OpenSearchSink : ILogEventSink
     private readonly CancellationTokenSource _cancellationTokenSource = new();
     private readonly Task _daemon;
 
+    /// <summary>
+    /// Mapper used to transform a <see cref="LogEvent"/> into an object that will be sent to OpenSearch.
+    /// </summary>
     public delegate object LogEventMapper(LogEvent logEvent);
 
+    /// <summary>
+    /// Constructor
+    /// </summary>
+    /// <param name="settings">Connection Settings</param>
+    /// <param name="options">Settings for how logs are sent</param>
+    /// <exception cref="Exception">If connecting to cluster fails</exception>
     public OpenSearchSink(IConnectionSettingsValues settings, OpenSearchSinkOptions options = default!)
     {
         // init parameters
@@ -36,7 +48,7 @@ public class OpenSearchSink : ILogEventSink
             throw new Exception("Unable to connect to opensearch cluster", pingResponse.OriginalException);
         }
 
-        // start sending logs to opensearch in background
+        // start sending logs to OpenSearch in background
         _daemon = Daemon();
         // register process exit handler to send remaining logs before exiting
         AppDomain.CurrentDomain.ProcessExit += OnProcessExit;
@@ -75,7 +87,7 @@ public class OpenSearchSink : ILogEventSink
                 events.Add(logEvent);
             }
 
-            // send logs to opensearch if there are any
+            // send logs to OpenSearch if there are any
             if (events.Count > 0)
             {
                 await SendBulkAsync(events)
@@ -112,19 +124,19 @@ public class OpenSearchSink : ILogEventSink
         try
         {
             // map events to custom format (default is the private Event class below, mapped via the MapEvent delegate)
-            // so that opensearch can index them
+            // so that OpenSearch can index them
             var result = await _client.IndexManyAsync(
                     events.Select(e => _mapper(e)).ToList())
                 .ConfigureAwait(false);
             // log errors if any
             if (result.Errors)
             {
-                SelfLog.WriteLine("failed to index events into opensearch: {0}", result.DebugInformation);
+                SelfLog.WriteLine("failed to index events into OpenSearch: {0}", result.DebugInformation);
             }
         }
         catch (Exception e)
         {
-            SelfLog.WriteLine("failed to index events into opensearch: {0}", e);
+            SelfLog.WriteLine("failed to index events into OpenSearch: {0}", e.Message);
         }
     }
 
@@ -168,20 +180,23 @@ public class OpenSearchSink : ILogEventSink
     }
 }
 
+/// <summary>
+/// Options to configure how logs are sent to OpenSearch
+/// </summary>
 public class OpenSearchSinkOptions
 {
     /// <summary>
-    /// the maximum number of logs to send to opensearch in one request
+    /// the maximum number of logs to send to OpenSearch in one request
     /// </summary>
     public int? MaxBatchSize { get; init; } = null;
 
     /// <summary>
-    /// how often to send logs to opensearch
+    /// how often to send logs to OpenSearch
     /// </summary>
     public TimeSpan Tick { get; init; } = TimeSpan.FromSeconds(1);
 
     /// <summary>
-    /// what format logs are converted to before being sent to opensearch
+    /// what format logs are converted to before being sent to OpenSearch
     /// </summary>
     public OpenSearchSink.LogEventMapper? Mapper { get; init; } = null;
 }
