@@ -32,5 +32,6 @@
 
     <ItemGroup>
         <None Include="../README.md" Pack="true" Visible="false" PackagePath="/"/>
+        <InternalsVisibleTo Include="AppFact.SerilogOpenSearchSink.Tests"/>
     </ItemGroup>
 </Project>

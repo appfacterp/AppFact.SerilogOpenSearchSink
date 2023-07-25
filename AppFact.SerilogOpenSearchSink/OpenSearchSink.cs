@@ -11,7 +11,7 @@ namespace AppFact.SerilogOpenSearchSink;
 /// </summary>
 public class OpenSearchSink : ILogEventSink
 {
-    private readonly OpenSearchClient _client;
+    internal readonly OpenSearchClient Client;
     private readonly ConcurrentQueue<LogEvent> _queue = new();
     private readonly int? _maxBatchSize;
     private readonly TimeSpan _tick;
@@ -41,15 +41,15 @@ public class OpenSearchSink : ILogEventSink
         _mapper = options.Mapper ?? MapEvent;
 
         // init opensearch client and check connection
-        _client = new OpenSearchClient(settings);
-        var pingResponse = _client.Ping();
+        Client = new OpenSearchClient(settings);
+        var pingResponse = Client.Ping();
         if (!pingResponse.IsValid)
         {
             throw new Exception("Unable to connect to opensearch cluster", pingResponse.OriginalException);
         }
 
         // start sending logs to OpenSearch in background
-        _daemon = Daemon();
+        _daemon = Task.Run(Daemon);
         // register process exit handler to send remaining logs before exiting
         AppDomain.CurrentDomain.ProcessExit += OnProcessExit;
     }
@@ -125,7 +125,7 @@ public class OpenSearchSink : ILogEventSink
         {
             // map events to custom format (default is the private Event class below, mapped via the MapEvent delegate)
             // so that OpenSearch can index them
-            var result = await _client.IndexManyAsync(
+            var result = await Client.IndexManyAsync(
                     events.Select(e => _mapper(e)).ToList())
                 .ConfigureAwait(false);
             // log errors if any
@@ -162,7 +162,7 @@ public class OpenSearchSink : ILogEventSink
         };
     }
 
-    private class Event
+    internal class Event
     {
         public required DateTimeOffset Timestamp { get; init; }
         public required string Level { get; init; }
