@@ -8,9 +8,9 @@
         <LangVersion>11</LangVersion>
         <Authors>Kirill Polferov</Authors>
         <Company>Fischer &amp; Consultants GmbH</Company>
-        
+
         <Version>0.0.2</Version>
-        
+
         <RepositoryUrl>https://github.com/appfacterp/AppFact.SerilogOpenSearchSink.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/appfacterp/AppFact.SerilogOpenSearchSink</PackageProjectUrl>
@@ -30,5 +30,7 @@
         <PackageReference Include="Serilog" Version="2.12.0"/>
     </ItemGroup>
 
-
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" Visible="false" PackagePath="/"/>
+    </ItemGroup>
 </Project>
