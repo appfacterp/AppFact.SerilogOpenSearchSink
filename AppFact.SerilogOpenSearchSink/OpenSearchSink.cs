@@ -172,7 +172,7 @@ public class OpenSearchSink : ILogEventSink
         public required Exception? Exception { get; init; }
     }
 
-    private void OnProcessExit(object sender, EventArgs args)
+    internal void OnProcessExit(object sender, EventArgs args)
     {
         _processExitRegistered = true;
         _cancellationTokenSource.Cancel();

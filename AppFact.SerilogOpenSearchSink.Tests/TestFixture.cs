@@ -53,7 +53,7 @@ public class TestFixture : IAsyncDisposable
         return connSettings;
     }
 
-    public (Logger, OpenSearchClient) GetLogger(OpenSearchSinkOptions? opts = default)
+    public (Logger, OpenSearchSink) GetLogger(OpenSearchSinkOptions? opts = default)
     {
         var connSettings = GetConnectionSettings();
         connSettings.DefaultIndex(Guid.NewGuid().ToString());
@@ -63,7 +63,7 @@ public class TestFixture : IAsyncDisposable
         };
         var sink = new OpenSearchSink(connSettings, opts);
         var logger = new LoggerConfiguration().WriteTo.Sink(sink).CreateLogger();
-        return (logger, sink.Client);
+        return (logger, sink);
     }
 
     public async ValueTask DisposeAsync()

@@ -12,7 +12,7 @@ public class OpenSearchSinkTests : TestBase
     public async Task SendsLogsToOpenSearch()
     {
         // Arrange
-        var (logger, client) = F.GetLogger();
+        var (logger, sink) = F.GetLogger();
         var message = Guid.NewGuid().ToString();
 
         // Act
@@ -21,7 +21,7 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result = await client.SearchAsync<OpenSearchSink.Event>(s => s.Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<OpenSearchSink.Event>(s => s.Query(q => q.MatchAll()));
         result.Total.Should().Be(1);
         result.Documents.First().Message.Should().Be(message);
     }
@@ -30,7 +30,7 @@ public class OpenSearchSinkTests : TestBase
     public async Task SendsLogsInDefinedFormat()
     {
         // Arrange
-        var (logger, client) = F.GetLogger(new OpenSearchSinkOptions()
+        var (logger, sink) = F.GetLogger(new OpenSearchSinkOptions()
         {
             Tick = TimeSpan.FromMilliseconds(1),
             Mapper = l => new TestEvent
@@ -46,7 +46,7 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result = await client.SearchAsync<TestEvent>(s => s.Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<TestEvent>(s => s.Query(q => q.MatchAll()));
         result.Total.Should().Be(1);
         result.Documents.First().Message.Should().Be("test test234");
         result.Documents.First().Abc.Should().Be("abc");
@@ -58,11 +58,17 @@ public class OpenSearchSinkTests : TestBase
         public required string Abc { get; init; }
     }
 
-    [Fact]
-    public async Task SendsMultipleLogs()
+    [Theory]
+    [InlineData(null)]
+    [InlineData(10)]
+    public async Task SendsMultipleLogs(int? batchSize)
     {
         // Arrange
-        var (logger, client) = F.GetLogger();
+        var (logger, sink) = F.GetLogger(new OpenSearchSinkOptions
+        {
+            Tick = TimeSpan.FromMilliseconds(1),
+            MaxBatchSize = batchSize
+        });
 
         // Act
         for (var i = 0; i < 100; i++)
@@ -71,9 +77,32 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result = await client.SearchAsync<OpenSearchSink.Event>(s => s.Size(150).Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<OpenSearchSink.Event>(s => s.Size(150).Query(q => q.MatchAll()));
         result.Total.Should().Be(100);
         var logs = result.Documents.Select(l => l.Message).ToHashSet();
         logs.Should().Equal(Enumerable.Range(0, 100).Select(i => $"test {i}").ToHashSet());
+    }
+
+    [Fact]
+    public async Task SkipsWaitingForTickWhenShuttingDownAndSendsRemainingLogs()
+    {
+        // Arrange
+        var (logger, sink) = F.GetLogger(new OpenSearchSinkOptions()
+            {
+                Tick = TimeSpan.MaxValue
+            }
+        );
+        await Task.Delay(1000); // wait for first tick to pass
+
+        // Act
+        // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
+        logger.Information("test");
+        sink.OnProcessExit(null!, null!);
+
+        // Assert
+        await Task.Delay(2000);
+        var result = await sink.Client.SearchAsync<OpenSearchSink.Event>(s => s.Query(q => q.MatchAll()));
+        result.Total.Should().Be(1);
+        result.Documents.First().Message.Should().Be("test");
     }
 }
