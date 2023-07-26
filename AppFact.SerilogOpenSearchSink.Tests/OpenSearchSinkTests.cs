@@ -57,4 +57,23 @@ public class OpenSearchSinkTests : TestBase
         public required string Message { get; init; }
         public required string Abc { get; init; }
     }
+
+    [Fact]
+    public async Task SendsMultipleLogs()
+    {
+        // Arrange
+        var (logger, client) = F.GetLogger();
+
+        // Act
+        for (var i = 0; i < 100; i++)
+            // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
+            logger.Information("test {I}", i);
+
+        // Assert
+        await Task.Delay(2000);
+        var result = await client.SearchAsync<OpenSearchSink.Event>(s => s.Size(150).Query(q => q.MatchAll()));
+        result.Total.Should().Be(100);
+        var logs = result.Documents.Select(l => l.Message).ToHashSet();
+        logs.Should().Equal(Enumerable.Range(0, 100).Select(i => $"test {i}").ToHashSet());
+    }
 }
