@@ -89,7 +89,7 @@ public class OpenSearchSinkTests : TestBase
         // Arrange
         var (logger, sink) = F.GetLogger(new OpenSearchSinkOptions()
             {
-                Tick = TimeSpan.MaxValue
+                Tick = TimeSpan.FromMinutes(10)
             }
         );
         await Task.Delay(1000); // wait for first tick to pass
