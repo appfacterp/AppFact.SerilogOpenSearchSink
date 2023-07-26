@@ -1,5 +1,9 @@
 # AppFact.SerilogOpenSearchSink
 
+## License
+
+TBA very soon
+
 ## What is it?
 
 A [Serilog](https://serilog.net/) sink that writes logs to an [OpenSearch](https://opensearch.org/) cluster.
