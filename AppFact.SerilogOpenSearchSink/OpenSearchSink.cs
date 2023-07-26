@@ -12,7 +12,7 @@ namespace AppFact.SerilogOpenSearchSink;
 public class OpenSearchSink : ILogEventSink
 {
     internal readonly OpenSearchClient Client;
-    private readonly ConcurrentQueue<LogEvent> _queue = new();
+    private readonly BlockingCollection<LogEvent> _queue;
     private readonly int? _maxBatchSize;
     private readonly TimeSpan _tick;
     private readonly LogEventMapper _mapper;
@@ -39,6 +39,9 @@ public class OpenSearchSink : ILogEventSink
         _maxBatchSize = options.MaxBatchSize;
         _tick = options.Tick;
         _mapper = options.Mapper ?? MapEvent;
+        _queue = options.QueueSizeLimit is not null
+            ? new(new ConcurrentQueue<LogEvent>(), options.QueueSizeLimit.Value)
+            : new(new ConcurrentQueue<LogEvent>());
 
         // init opensearch client and check connection
         Client = new OpenSearchClient(settings);
@@ -63,8 +66,7 @@ public class OpenSearchSink : ILogEventSink
             return;
         }
 
-        // TODO: consider whether the queue should be bounded, i.e. if the queue is full, drop the event? That is how the grafana loki sink is implemented.
-        _queue.Enqueue(logEvent);
+        _queue.TryAdd(logEvent);
     }
 
     /// <summary>
@@ -82,7 +84,7 @@ public class OpenSearchSink : ILogEventSink
 
             // aggregate as many events as possible while respecting the max batch size
             var events = new List<LogEvent>();
-            for (var i = 0; (_maxBatchSize is null || i < _maxBatchSize) && _queue.TryDequeue(out var logEvent); i++)
+            for (var i = 0; (_maxBatchSize is null || i < _maxBatchSize) && _queue.TryTake(out var logEvent); i++)
             {
                 events.Add(logEvent);
             }
@@ -199,4 +201,9 @@ public class OpenSearchSinkOptions
     /// what format logs are converted to before being sent to OpenSearch
     /// </summary>
     public OpenSearchSink.LogEventMapper? Mapper { get; init; } = null;
+
+    /// <summary>
+    /// the maximum number of logs to queue before dropping new logs
+    /// </summary>
+    public int? QueueSizeLimit { get; init; }
 }
