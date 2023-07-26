@@ -60,7 +60,6 @@ public class TestFixture : IAsyncDisposable
         opts ??= new OpenSearchSinkOptions
         {
             Tick = TimeSpan.FromMilliseconds(1),
-            MaxBatchSize = null
         };
         var sink = new OpenSearchSink(connSettings, opts);
         var logger = new LoggerConfiguration().WriteTo.Sink(sink).CreateLogger();

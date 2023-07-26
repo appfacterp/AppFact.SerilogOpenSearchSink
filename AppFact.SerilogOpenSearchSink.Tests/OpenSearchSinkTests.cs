@@ -25,4 +25,36 @@ public class OpenSearchSinkTests : TestBase
         result.Total.Should().Be(1);
         result.Documents.First().Message.Should().Be(message);
     }
+
+    [Fact]
+    public async Task SendsLogsInDefinedFormat()
+    {
+        // Arrange
+        var (logger, client) = F.GetLogger(new OpenSearchSinkOptions()
+        {
+            Tick = TimeSpan.FromMilliseconds(1),
+            Mapper = l => new TestEvent
+            {
+                Message = l.RenderMessage() + " test234",
+                Abc = "abc"
+            }
+        });
+
+        // Act
+        // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
+        logger.Information("test");
+
+        // Assert
+        await Task.Delay(2000);
+        var result = await client.SearchAsync<TestEvent>(s => s.Query(q => q.MatchAll()));
+        result.Total.Should().Be(1);
+        result.Documents.First().Message.Should().Be("test test234");
+        result.Documents.First().Abc.Should().Be("abc");
+    }
+
+    private class TestEvent
+    {
+        public required string Message { get; init; }
+        public required string Abc { get; init; }
+    }
 }
