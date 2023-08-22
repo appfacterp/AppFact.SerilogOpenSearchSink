@@ -26,8 +26,8 @@ cs.DefaultIndex("logs");
 cs.BasicAuthentication("username", "password");
 // register sink
 builder.WriteTo.OpenSearch(cs);
-// or
-builder.WriteTo.OpenSearch(cs, new OpenSearchSinkOptions{...});
+// also supports optional parameters options, restrictedToMinimumLevel, and levelSwitch
+builder.WriteTo.OpenSearch(cs, options: new OpenSearchSinkOptions{...}, restrictedToMinimumLevel: LevelAlias.Minimum, levelSwitch: new Serilog.Core.LoggingLevelSwitch());
 
 // method 2
 // or configure without IConnectionSettingsValues using basic auth
@@ -38,7 +38,9 @@ builder.WriteTo.OpenSearch(
     basicAuthPassword: "password",
     index: "logs", // optional, default is "logs"
     maxBatchSize: 1000, // optional and nullable, default is 1000
-    tickInSeconds: 1.0 // optional double, default is 1.0
+    tickInSeconds: 1.0, // optional double, default is 1.0
+	restrictedToMinimumLevel: LevelAlias.Minimum, // optional enumerator, default is LevelAlias.Minimum
+    levelSwitch: null // optional Serilog.Core.LoggingLevelSwitch, default is null
 );
 
 

@@ -24,7 +24,7 @@ public static class SerilogExtensions
     public static LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
         IConnectionSettingsValues settings,
         OpenSearchSinkOptions options = default!,
-        LogEventLevel restrictedToMinimumLevel = LogEventLevel.Verbose,
+        LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null)
     {
         _ = configuration ?? throw new ArgumentNullException(nameof(configuration));
@@ -49,7 +49,7 @@ public static class SerilogExtensions
         string uri,
         string basicAuthUser, string basicAuthPassword, string index = "logs", int? maxBatchSize = 1000,
         double tickInSeconds = 1.0,
-        LogEventLevel restrictedToMinimumLevel = LogEventLevel.Verbose,
+        LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null)
     {
         _ = configuration ?? throw new ArgumentNullException(nameof(configuration));
