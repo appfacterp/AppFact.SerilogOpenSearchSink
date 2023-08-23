@@ -39,7 +39,7 @@ builder.WriteTo.OpenSearch(
     index: "logs", // optional, default is "logs"
     maxBatchSize: 1000, // optional and nullable, default is 1000
     tickInSeconds: 1.0, // optional double, default is 1.0
-	restrictedToMinimumLevel: LevelAlias.Minimum, // optional enumerator, default is LevelAlias.Minimum
+    restrictedToMinimumLevel: LevelAlias.Minimum, // optional enumerator, default is LevelAlias.Minimum
     levelSwitch: null // optional Serilog.Core.LoggingLevelSwitch, default is null
 );
 
