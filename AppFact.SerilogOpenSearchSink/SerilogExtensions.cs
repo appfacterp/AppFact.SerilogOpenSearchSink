@@ -43,7 +43,7 @@ public static class SerilogExtensions
     /// <param name="tickInSeconds">how often logs are taken from the internal queue and sent to OpenSearch</param>
     /// <param name="restrictedToMinimumLevel">The minimum level for events passed through the sink. Ignored when levelSwitch is specified.</param>
     /// <param name="levelSwitch">A switch allowing the pass-through minimum level to be changed at runtime.</param>
-    /// <param name="bypassSsl">Bypass OpenSearch node SSL certiifciate if it's untrusted. Default behaviour for .NET is to throw exception in such cases</param>
+    /// <param name="bypassSsl">Bypass OpenSearch node SSL certificate if it's untrusted. Default behaviour for .NET is to throw exception in such cases.</param>
     /// <returns></returns>
     /// <exception cref="ArgumentNullException">when required parameters are null. see null annotations</exception>
     public static LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
@@ -66,7 +66,7 @@ public static class SerilogExtensions
 
         if (bypassSsl)
         {
-            conn.ServerCertificateValidationCallback((_, _, _, _) => true);
+            conn.ServerCertificateValidationCallback(static (_, _, _, _) => true);
         }
 
         var opts = new OpenSearchSinkOptions()
