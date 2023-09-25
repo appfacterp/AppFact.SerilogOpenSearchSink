@@ -48,7 +48,10 @@ public static class SerilogExtensions
     /// <exception cref="ArgumentNullException">when required parameters are null. see null annotations</exception>
     public static LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
         string uri,
-        string basicAuthUser, string basicAuthPassword, string index = "logs", int? maxBatchSize = 1000,
+        string basicAuthUser,
+        string basicAuthPassword,
+        string index = "logs", 
+        int? maxBatchSize = 1000,
         double tickInSeconds = 1.0,
         LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null,
