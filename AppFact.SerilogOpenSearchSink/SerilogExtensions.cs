@@ -1,4 +1,5 @@
 using OpenSearch.Client;
+using OpenSearch.Net;
 using Serilog;
 using Serilog.Configuration;
 using Serilog.Core;
@@ -35,7 +36,7 @@ public static class SerilogExtensions
     /// Adds the OpenSearch sink to the logger configuration using the provided parameters
     /// </summary>
     /// <param name="configuration"></param>
-    /// <param name="uri">uri of the OpenSearch cluster</param>
+    /// <param name="uri">Uri of the OpenSearch cluster</param>
     /// <param name="basicAuthUser">username for basic auth</param>
     /// <param name="basicAuthPassword">password for basic auth</param>
     /// <param name="index">index where logs are sent to</param>
@@ -50,7 +51,44 @@ public static class SerilogExtensions
         string uri,
         string basicAuthUser,
         string basicAuthPassword,
-        string index = "logs", 
+        string index = "logs",
+        int? maxBatchSize = 1000,
+        double tickInSeconds = 1.0,
+        LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
+        LoggingLevelSwitch? levelSwitch = null,
+        bool bypassSsl = false)
+    {
+        return configuration.OpenSearch(new[] { new Uri(uri) },
+            basicAuthUser,
+            basicAuthPassword,
+            index,
+            maxBatchSize,
+            tickInSeconds,
+            restrictedToMinimumLevel,
+            levelSwitch,
+            bypassSsl);
+    }
+
+
+    /// <summary>
+    /// Adds the OpenSearch sink to the logger configuration using the provided parameters
+    /// </summary>
+    /// <param name="configuration"></param>
+    /// <param name="connectionStrings">Will use <see cref="SniffingConnectionPool"/> if several urls are provided and <see cref="SingleNodeConnectionPool "/> if a single one is provided</param>
+    /// <param name="basicAuthUser">username for basic auth</param>
+    /// <param name="basicAuthPassword">password for basic auth</param>
+    /// <param name="index">index where logs are sent to</param>
+    /// <param name="maxBatchSize">how many logs (maximum) should be sent to OpenSearch in one single request/on each tick</param>
+    /// <param name="tickInSeconds">how often logs are taken from the internal queue and sent to OpenSearch</param>
+    /// <param name="restrictedToMinimumLevel">The minimum level for events passed through the sink. Ignored when levelSwitch is specified.</param>
+    /// <param name="levelSwitch">A switch allowing the pass-through minimum level to be changed at runtime.</param>
+    /// <param name="bypassSsl">Bypass OpenSearch node SSL certificate if it's untrusted. Default behaviour for .NET is to throw exception in such cases.</param>
+    /// <returns></returns>
+    static public LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
+        IEnumerable<Uri> connectionStrings,
+        string basicAuthUser,
+        string basicAuthPassword,
+        string index = "logs",
         int? maxBatchSize = 1000,
         double tickInSeconds = 1.0,
         LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
@@ -58,12 +96,29 @@ public static class SerilogExtensions
         bool bypassSsl = false)
     {
         _ = configuration ?? throw new ArgumentNullException(nameof(configuration));
-        _ = uri ?? throw new ArgumentNullException(nameof(uri));
+        _ = connectionStrings ?? throw new ArgumentNullException(nameof(connectionStrings));
         _ = basicAuthUser ?? throw new ArgumentNullException(nameof(basicAuthUser));
         _ = basicAuthPassword ?? throw new ArgumentNullException(nameof(basicAuthPassword));
         _ = index ?? throw new ArgumentNullException(nameof(index));
 
-        var conn = new ConnectionSettings(new Uri(uri));
+        if (!connectionStrings.Any())
+        {
+            throw new ArgumentException("Provide at least one connection string");
+        }
+
+        IConnectionPool? connectionPool = null;
+        if (connectionStrings.Count() > 1)
+        {
+            connectionPool = new SniffingConnectionPool(connectionStrings);
+        }
+        else
+        {
+            connectionPool = new SingleNodeConnectionPool(connectionStrings.Single());
+        }
+
+        var conn = new ConnectionSettings(connectionPool);
+
+        conn.ServerCertificateValidationCallback(static (_, _, _, _) => true);
         conn.BasicAuthentication(basicAuthUser, basicAuthPassword);
         conn.DefaultIndex(index);
 
