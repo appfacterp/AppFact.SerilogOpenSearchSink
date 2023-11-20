@@ -118,13 +118,12 @@ public static class SerilogExtensions
 
         var conn = new ConnectionSettings(connectionPool);
 
-        conn.ServerCertificateValidationCallback(static (_, _, _, _) => true);
         conn.BasicAuthentication(basicAuthUser, basicAuthPassword);
         conn.DefaultIndex(index);
 
         if (bypassSsl)
         {
-            conn.ServerCertificateValidationCallback(static (_, _, _, _) => true);
+            conn.ServerCertificateValidationCallback(CertificateValidations.AllowAll);
         }
 
         var opts = new OpenSearchSinkOptions()
