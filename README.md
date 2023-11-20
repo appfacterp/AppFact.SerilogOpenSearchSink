@@ -33,7 +33,7 @@ builder.WriteTo.OpenSearch(cs, options: new OpenSearchSinkOptions{...}, restrict
 // or configure without IConnectionSettingsValues using basic auth
 // provides less flexibility but works with Serilog.Settings.Configuration
 builder.WriteTo.OpenSearch(
-    uri: "http://localhost:9200", // or provide several Uris for 
+    uri: "http://localhost:9200", // or submit several see method 2 with SniffingConnectionPool
     basicAuthUser: "username",
     basicAuthPassword: "password",
     index: "logs", // optional, default is "logs"
@@ -44,9 +44,9 @@ builder.WriteTo.OpenSearch(
     bypassSsl: false // .NET will throw an exception when a server certificate is issued by an untrasted authority. To bypass the SSL certificate check set the value to true, default is false
 );
 
-// method 2 with
+// method 2 with SniffingConnectionPool
 builder.WriteTo.OpenSearch(
-    connectionStrings: new Uri[] // provide several URIs for SniffingConnectionPool
+    connectionStrings: new Uri[]
     {
         new Uri("http://localhost:9200"),
         new Uri("http://localhost:9201"),
