@@ -85,7 +85,7 @@ public static class SerilogExtensions
     /// <param name="bypassSsl">Bypass OpenSearch node SSL certificate if it's untrusted. Default behaviour for .NET is to throw exception in such cases.</param>
     /// <returns></returns>
     static public LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
-        IEnumerable<Uri> connectionStrings,
+        ICollection<Uri> connectionStrings,
         string basicAuthUser,
         string basicAuthPassword,
         string index = "logs",
