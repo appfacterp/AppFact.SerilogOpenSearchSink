@@ -212,5 +212,5 @@ public class OpenSearchSinkOptions
     /// <summary>
     /// should the sink throw an exception if the ping to the OpenSearch cluster fails on startup this has no effect if the ping fails after the sink has started
     /// </summary>
-    public bool ThrowOnFailedPing { get; set; }
+    public bool ThrowOnFailedPing { get; set; } = true;
 }

@@ -58,7 +58,7 @@ public static class SerilogExtensions
         LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null,
         bool bypassSsl = false,
-        bool throwOnFailedPing = false)
+        bool throwOnFailedPing = true)
     {
         return configuration.OpenSearch(new[] { new Uri(uri) },
             basicAuthUser,
@@ -98,7 +98,7 @@ public static class SerilogExtensions
         LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null,
         bool bypassSsl = false,
-        bool throwOnFailedPing = false)
+        bool throwOnFailedPing = true)
     {
         _ = configuration ?? throw new ArgumentNullException(nameof(configuration));
         _ = connectionStrings ?? throw new ArgumentNullException(nameof(connectionStrings));
