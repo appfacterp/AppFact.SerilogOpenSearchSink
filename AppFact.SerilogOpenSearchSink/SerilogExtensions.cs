@@ -45,7 +45,7 @@ public static class SerilogExtensions
     /// <param name="restrictedToMinimumLevel">The minimum level for events passed through the sink. Ignored when levelSwitch is specified.</param>
     /// <param name="levelSwitch">A switch allowing the pass-through minimum level to be changed at runtime.</param>
     /// <param name="bypassSsl">Bypass OpenSearch node SSL certificate if it's untrusted. Default behaviour for .NET is to throw exception in such cases.</param>
-    /// <param name="throwOnFailedPing">should the sink throw an exception if the ping to the OpenSearch cluster fails on startup this has no effect if the ping fails after the sink has started</param>
+    /// <param name="suppressThrowOnFailedInit">should the sink suppress throwing an exception if the ping to the OpenSearch cluster fails on startup. this has no effect if the ping fails after the sink has started</param>
     /// <returns></returns>
     /// <exception cref="ArgumentNullException">when required parameters are null. see null annotations</exception>
     public static LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
@@ -58,7 +58,7 @@ public static class SerilogExtensions
         LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null,
         bool bypassSsl = false,
-        bool throwOnFailedPing = true)
+        bool suppressThrowOnFailedInit = false)
     {
         return configuration.OpenSearch(new[] { new Uri(uri) },
             basicAuthUser,
@@ -69,7 +69,7 @@ public static class SerilogExtensions
             restrictedToMinimumLevel,
             levelSwitch,
             bypassSsl,
-            throwOnFailedPing);
+            suppressThrowOnFailedInit);
     }
 
 
@@ -86,7 +86,7 @@ public static class SerilogExtensions
     /// <param name="restrictedToMinimumLevel">The minimum level for events passed through the sink. Ignored when levelSwitch is specified.</param>
     /// <param name="levelSwitch">A switch allowing the pass-through minimum level to be changed at runtime.</param>
     /// <param name="bypassSsl">Bypass OpenSearch node SSL certificate if it's untrusted. Default behaviour for .NET is to throw exception in such cases.</param>
-    /// <param name="throwOnFailedPing">should the sink throw an exception if the ping to the OpenSearch cluster fails on startup this has no effect if the ping fails after the sink has started</param>
+    /// <param name="suppressThrowOnFailedInit">should the sink suppress throwing an exception if the ping to the OpenSearch cluster fails on startup. this has no effect if the ping fails after the sink has started</param>
     /// <returns></returns>
     static public LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
         ICollection<Uri> connectionStrings,
@@ -98,7 +98,7 @@ public static class SerilogExtensions
         LogEventLevel restrictedToMinimumLevel = LevelAlias.Minimum,
         LoggingLevelSwitch? levelSwitch = null,
         bool bypassSsl = false,
-        bool throwOnFailedPing = true)
+        bool suppressThrowOnFailedInit = false)
     {
         _ = configuration ?? throw new ArgumentNullException(nameof(configuration));
         _ = connectionStrings ?? throw new ArgumentNullException(nameof(connectionStrings));
@@ -135,7 +135,7 @@ public static class SerilogExtensions
         {
             MaxBatchSize = maxBatchSize,
             Tick = TimeSpan.FromSeconds(tickInSeconds),
-            ThrowOnFailedPing = throwOnFailedPing
+            SuppressThrowOnFailedInit = suppressThrowOnFailedInit
         };
 
         return configuration.OpenSearch(conn, opts, restrictedToMinimumLevel, levelSwitch);

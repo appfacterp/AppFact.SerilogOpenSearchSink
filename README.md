@@ -42,7 +42,8 @@ builder.WriteTo.OpenSearch(
     restrictedToMinimumLevel: LevelAlias.Minimum, // optional enumerator, default is LevelAlias.Minimum
     levelSwitch: null, // optional Serilog.Core.LoggingLevelSwitch, default is null
     bypassSsl: false, // .NET will throw an exception when a server certificate is issued by an untrasted authority. To bypass the SSL certificate check set the value to true, default is false
-    throwOnFailedPing: true, // optional bool default is true, should the sink throw an exception if the ping to the OpenSearch cluster fails on startup this has no effect if the ping fails after the sink has started
+    suppressThrowOnFailedInit: false // optional bool, default is false.
+        // ^ should the sink suppress throwing an exception if the ping to the OpenSearch cluster fails on startup. this has no effect if the ping fails after the sink has started
 );
 
 // method 2 with SniffingConnectionPool
