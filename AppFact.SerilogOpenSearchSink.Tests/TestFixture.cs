@@ -21,6 +21,7 @@ public class TestFixture : IAsyncDisposable
         _container = new ContainerBuilder()
             .WithImage("opensearchproject/opensearch")
             .WithEnvironment("discovery.type", "single-node")
+            .WithEnvironment("OPENSEARCH_INITIAL_ADMIN_PASSWORD", "Kec4##Dd2") // annoying password requirements
             .WithPortBinding(9200, true)
             .WithAutoRemove(true)
             .Build();
@@ -49,7 +50,7 @@ public class TestFixture : IAsyncDisposable
             new ConnectionSettings(
                 new Uri("https://" + _container.Hostname + ":" + _container.GetMappedPublicPort(9200)));
         connSettings.ServerCertificateValidationCallback((_, _, _, _) => true);
-        connSettings.BasicAuthentication("admin", "admin");
+        connSettings.BasicAuthentication("admin", "Kec4##Dd2");
         return connSettings;
     }
 

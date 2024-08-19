@@ -48,7 +48,9 @@ public class OpenSearchSink : ILogEventSink
         var pingResponse = Client.Ping();
         if (!pingResponse.IsValid)
         {
-            throw new Exception("Unable to connect to opensearch cluster", pingResponse.OriginalException);
+            if (!options.SuppressThrowOnFailedInit)
+                throw new Exception("Unable to connect to opensearch cluster", pingResponse.OriginalException);
+            SelfLog.WriteLine("Unable to connect to opensearch cluster: {0}", pingResponse.OriginalException.Message);
         }
 
         // start sending logs to OpenSearch in background
@@ -206,4 +208,9 @@ public class OpenSearchSinkOptions
     /// the maximum number of logs to queue before dropping new logs
     /// </summary>
     public int? QueueSizeLimit { get; init; }
+
+    /// <summary>
+    /// should the sink suppress throwing an exception if the ping to the OpenSearch cluster fails on startup. this has no effect if the ping fails after the sink has started
+    /// </summary>
+    public bool SuppressThrowOnFailedInit { get; set; } = false;
 }
