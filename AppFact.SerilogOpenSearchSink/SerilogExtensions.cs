@@ -89,7 +89,7 @@ public static class SerilogExtensions
     /// <param name="throwOnFailedPing">should the sink throw an exception if the ping to the OpenSearch cluster fails on startup this has no effect if the ping fails after the sink has started</param>
     /// <returns></returns>
     static public LoggerConfiguration OpenSearch(this LoggerSinkConfiguration configuration,
-        IEnumerable<Uri> connectionStrings,
+        ICollection<Uri> connectionStrings,
         string basicAuthUser,
         string basicAuthPassword,
         string index = "logs",
