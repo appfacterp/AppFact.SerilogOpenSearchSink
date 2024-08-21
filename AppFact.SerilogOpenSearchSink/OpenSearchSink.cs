@@ -68,7 +68,10 @@ public class OpenSearchSink : ILogEventSink
             return;
         }
 
-        _queue.TryAdd(logEvent);
+        if (!_queue.TryAdd(logEvent))
+        {
+            SelfLog.WriteLine("Queue is full, dropping log event");
+        }
     }
 
     /// <summary>
