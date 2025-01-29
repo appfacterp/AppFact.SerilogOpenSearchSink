@@ -97,8 +97,18 @@ public class OpenSearchSink : ILogEventSink, IDisposable
             // send logs to OpenSearch if there are any
             if (events.Count > 0)
             {
-                await SendBulkAsync(events)
+                var success = await SendBulkAsync(events)
                     .ConfigureAwait(false);
+
+                // re-emit log events on failure 
+                if (!success)
+                {
+                    foreach (var logEvent in events)
+                    {
+                        Emit(logEvent);
+                    }
+                }
+
                 // the count of events being the batch size indicates that there might be more events in the queue,
                 // in that case, skip the delay and continue sending the next batch
                 if (events.Count == _maxBatchSize)
@@ -126,7 +136,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         }
     }
 
-    private async Task SendBulkAsync(IEnumerable<LogEvent> events)
+    private async Task<bool> SendBulkAsync(IEnumerable<LogEvent> events)
     {
         try
         {
@@ -136,15 +146,19 @@ public class OpenSearchSink : ILogEventSink, IDisposable
                     events.Select(e => _mapper(e)).ToList())
                 .ConfigureAwait(false);
             // log errors if any
-            if (result.Errors)
+            if (result.Errors || !result.IsValid)
             {
-                SelfLog.WriteLine("failed to index events into OpenSearch: {0}", result.DebugInformation);
+                Console.WriteLine("failed to index events into OpenSearch: {0}", result.DebugInformation);
+                return false;
             }
         }
         catch (Exception e)
         {
-            SelfLog.WriteLine("failed to index events into OpenSearch: {0}", e.Message);
+            Console.WriteLine("failed to index events into OpenSearch: {0}", e.Message);
+            return false;
         }
+
+        return true;
     }
 
     private static object MapEvent(LogEvent e)
