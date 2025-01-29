@@ -9,7 +9,7 @@ namespace AppFact.SerilogOpenSearchSink;
 /// <summary>
 /// Implementation of <see cref="ILogEventSink"/> that sends log events to an OpenSearch cluster.
 /// </summary>
-public class OpenSearchSink : ILogEventSink
+public class OpenSearchSink : ILogEventSink, IDisposable
 {
     internal readonly OpenSearchClient Client;
     private readonly BlockingCollection<LogEvent> _queue;
@@ -184,6 +184,37 @@ public class OpenSearchSink : ILogEventSink
         _processExitRegistered = true;
         _cancellationTokenSource.Cancel();
         _daemon.Wait();
+    }
+
+    private bool _disposed;
+
+    private void Dispose(bool disposing)
+    {
+        if (_disposed)
+            return;
+        _disposed = true;
+        // wait for last logs to be sent off
+        // before destruction
+        OnProcessExit(null!, null!);
+        _queue.Dispose();
+        if (disposing)
+            GC.SuppressFinalize(this);
+    }
+
+    /// <summary>
+    /// Disposes of resources
+    /// </summary>
+    public void Dispose()
+    {
+        Dispose(true);
+    }
+
+    /// <summary>
+    /// Disposes of resources
+    /// </summary>
+    ~OpenSearchSink()
+    {
+        Dispose(false);
     }
 }
 
