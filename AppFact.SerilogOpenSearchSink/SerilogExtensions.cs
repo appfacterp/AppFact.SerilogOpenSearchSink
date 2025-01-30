@@ -121,7 +121,8 @@ public static class SerilogExtensions
             connectionPool = new SingleNodeConnectionPool(connectionStrings.Single());
         }
 
-        var conn = new ConnectionSettings(connectionPool);
+        var conn = new ConnectionSettings(connectionPool,
+            sourceSerializer: OpenSearchSerializer.SourceSerializerFactory);
 
         conn.BasicAuthentication(basicAuthUser, basicAuthPassword);
         conn.DefaultIndex(index);
