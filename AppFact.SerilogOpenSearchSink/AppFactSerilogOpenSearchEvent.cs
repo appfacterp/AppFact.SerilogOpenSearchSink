@@ -1,8 +1,9 @@
 using OpenSearch.Net;
+using Serilog.Events;
 
 namespace AppFact.SerilogOpenSearchSink;
 
-internal class AppFactSerilogOpenSearchEvent : IRecoverable<AppFactSerilogOpenSearchEvent>
+internal class AppFactSerilogOpenSearchEvent : IRecoverable
 {
     public required DateTimeOffset Timestamp { get; init; }
     public required string Level { get; init; }
@@ -12,7 +13,7 @@ internal class AppFactSerilogOpenSearchEvent : IRecoverable<AppFactSerilogOpenSe
     public required Exception? Exception { get; init; }
 
 
-    public AppFactSerilogOpenSearchEvent? Recover(IOpenSearchSerializer serializer)
+    public IRecoverable? Recover(IOpenSearchSerializer serializer)
     {
         var ex = serializer.CanSerialize(Exception)
             ? Exception
@@ -32,7 +33,7 @@ internal class AppFactSerilogOpenSearchEvent : IRecoverable<AppFactSerilogOpenSe
         {
             if (serializer.CanSerialize(kv.Value))
             {
-                ev.Props.Add(kv.Key, kv.Value);
+                ev.Props.Add(kv.Key, kv.Value!);
                 continue;
             }
             
@@ -68,8 +69,30 @@ internal class AppFactSerilogOpenSearchEvent : IRecoverable<AppFactSerilogOpenSe
             ev.Props.Add(exKey, exMsg);
         }
 
-        return serializer.CanSerialize(ev)
-            ? ev
-            : null;
+        return ev;
     }
+    
+    
+    public static AppFactSerilogOpenSearchEvent MapEvent(LogEvent e)
+    {
+        var message = e.RenderMessage();
+        var props = e.Properties
+            .Where(p => p.Key != "EventId" && (p.Value is not ScalarValue { Value: null }))
+            .ToDictionary(k => k.Key, v => v.Value switch
+            {
+                ScalarValue scalar => scalar.Value!,
+                var value => value
+            });
+
+        return new AppFactSerilogOpenSearchEvent
+        {
+            Timestamp = e.Timestamp,
+            Level = e.Level.ToString(),
+            Message = message,
+            Props = props,
+            Template = e.MessageTemplate.Text,
+            Exception = e.Exception
+        };
+    }
+
 }
