@@ -21,7 +21,7 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<OpenSearchSink.Event>(s => s.Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Query(q => q.MatchAll()));
         result.Total.Should().Be(1);
         result.Documents.First().Message.Should().Be(message);
     }
@@ -77,7 +77,7 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<OpenSearchSink.Event>(s => s.Size(150).Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Size(150).Query(q => q.MatchAll()));
         result.Total.Should().Be(100);
         var logs = result.Documents.Select(l => l.Message).ToHashSet();
         logs.Should().Equal(Enumerable.Range(0, 100).Select(i => $"test {i}").ToHashSet());
@@ -101,7 +101,7 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<OpenSearchSink.Event>(s => s.Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Query(q => q.MatchAll()));
         result.Total.Should().Be(1);
         result.Documents.First().Message.Should().Be("test");
     }

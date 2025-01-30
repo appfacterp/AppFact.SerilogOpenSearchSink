@@ -172,7 +172,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
                 var value => value
             });
 
-        return new Event
+        return new AppFactSerilogOpenSearchEvent
         {
             Timestamp = e.Timestamp,
             Level = e.Level.ToString(),
@@ -183,15 +183,6 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         };
     }
 
-    internal class Event
-    {
-        public required DateTimeOffset Timestamp { get; init; }
-        public required string Level { get; init; }
-        public required string Message { get; init; }
-        public required string Template { get; init; }
-        public required IDictionary<string, object> Props { get; init; }
-        public required Exception? Exception { get; init; }
-    }
 
     internal void OnProcessExit(object sender, EventArgs args)
     {
@@ -230,35 +221,4 @@ public class OpenSearchSink : ILogEventSink, IDisposable
     {
         Dispose(false);
     }
-}
-
-/// <summary>
-/// Options to configure how logs are sent to OpenSearch
-/// </summary>
-public class OpenSearchSinkOptions
-{
-    /// <summary>
-    /// the maximum number of logs to send to OpenSearch in one request
-    /// </summary>
-    public int? MaxBatchSize { get; init; } = null;
-
-    /// <summary>
-    /// how often to send logs to OpenSearch
-    /// </summary>
-    public TimeSpan Tick { get; init; } = TimeSpan.FromSeconds(1);
-
-    /// <summary>
-    /// what format logs are converted to before being sent to OpenSearch
-    /// </summary>
-    public OpenSearchSink.LogEventMapper? Mapper { get; init; } = null;
-
-    /// <summary>
-    /// the maximum number of logs to queue before dropping new logs
-    /// </summary>
-    public int? QueueSizeLimit { get; init; }
-
-    /// <summary>
-    /// should the sink suppress throwing an exception if the ping to the OpenSearch cluster fails on startup. this has no effect if the ping fails after the sink has started
-    /// </summary>
-    public bool SuppressThrowOnFailedInit { get; set; } = false;
 }
