@@ -13,6 +13,7 @@ steps:
     command: 'test'
     arguments: '-c Release --no-build'
 - script: dotnet pack -c Release --no-build -o "$(Build.ArtifactStagingDirectory)"
+  displayName: build
 - task: NuGetCommand@2
   continueOnError: true
   displayName: push to nuget.org
