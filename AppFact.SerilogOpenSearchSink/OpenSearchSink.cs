@@ -23,7 +23,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
     /// <summary>
     /// Mapper used to transform a <see cref="LogEvent"/> into an object that will be sent to OpenSearch.
     /// </summary>
-    public delegate IRecoverable LogEventMapper(LogEvent logEvent);
+    public delegate object LogEventMapper(LogEvent logEvent);
 
     /// <summary>
     /// Constructor
@@ -38,7 +38,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         options ??= new OpenSearchSinkOptions();
         _maxBatchSize = options.MaxBatchSize;
         _tick = options.Tick;
-        _mapper = options.Mapper ?? AppFactSerilogOpenSearchEvent.MapEvent;
+        _mapper = options.Mapper ?? MapEvent;
         _queue = options.QueueSizeLimit is not null
             ? new(new ConcurrentQueue<LogEvent>(), options.QueueSizeLimit.Value)
             : new(new ConcurrentQueue<LogEvent>());
@@ -97,7 +97,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
             // send logs to OpenSearch if there are any
             if (events.Count > 0)
             {
-                var success = await SendBulkEventsAsync(events)
+                var success = await SendBulkAsync(events)
                     .ConfigureAwait(false);
 
                 // re-emit log events on failure 
@@ -136,77 +136,53 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         }
     }
 
-    private async Task<bool> SendBulkEventsAsync(List<LogEvent> events)
-    {
-        List<IRecoverable> mapped;
-        try
-        {
-            mapped = events.Select(e => _mapper(e)).ToList();
-        }
-        catch (Exception e)
-        {
-            SelfLog.WriteLine("failed to map events: {0}", e.Message);
-            return false;
-        }
-
-        return await SendBulkAsync(mapped, false)
-            .ConfigureAwait(false);
-    }
-
-    private async Task<bool> SendBulkAsync(List<IRecoverable> events, bool isRecovering)
+    private async Task<bool> SendBulkAsync(IEnumerable<LogEvent> events)
     {
         try
         {
             // map events to custom format (default is the private Event class below, mapped via the MapEvent delegate)
             // so that OpenSearch can index them
-            var result = await Client.IndexManyAsync(events)
+            var result = await Client.IndexManyAsync(
+                    events.Select(e => _mapper(e)).ToList())
                 .ConfigureAwait(false);
             // log errors if any
             if (result.Errors || !result.IsValid)
             {
-                throw new Exception("failed to index events into OpenSearch: " + result.DebugInformation,
-                    result.OriginalException);
+                Console.WriteLine("failed to index events into OpenSearch: {0}", result.DebugInformation);
+                return false;
             }
         }
         catch (Exception e)
         {
-            if (isRecovering)
-            {
-                Console.WriteLine(e);
-                return false;
-            }
-
-
-            // try to recover the events and send them again
-            var recovered = Recover(events);
-            if (recovered is null)
-            {
-                Console.WriteLine(e);
-                return false;
-            }
-
-            return await SendBulkAsync(recovered, true)
-                .ConfigureAwait(false);
+            Console.WriteLine("failed to index events into OpenSearch: {0}", e.Message);
+            return false;
         }
 
         return true;
     }
 
-    private List<IRecoverable>? Recover(List<IRecoverable> events)
+    private static object MapEvent(LogEvent e)
     {
-        var recovered = new List<IRecoverable>(events.Count);
+        var message = e.RenderMessage();
+        var props = e.Properties
+            .Where(p => p.Key != "EventId" && (p.Value is not ScalarValue { Value: null }))
+            .ToDictionary(k => k.Key, v => v.Value switch
+            {
+                ScalarValue scalar => scalar.Value!,
+                var value => value
+            });
 
-        foreach (var recoverable in events)
+        return new AppFactSerilogOpenSearchEvent
         {
-            var recoveredValue = recoverable.RecoverSafe(Client.SourceSerializer);
-            if (recoveredValue is not null)
-                recovered.Add(recoveredValue);
-            else
-                SelfLog.WriteLine("Failed to recover object. dropping");
-        }
-
-        return recovered.Count == 0 ? null : recovered;
+            Timestamp = e.Timestamp,
+            Level = e.Level.ToString(),
+            Message = message,
+            Props = props,
+            Template = e.MessageTemplate.Text,
+            Exception = e.Exception
+        };
     }
+
 
     internal void OnProcessExit(object sender, EventArgs args)
     {

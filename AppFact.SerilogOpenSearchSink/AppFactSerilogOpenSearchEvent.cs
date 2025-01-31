@@ -1,9 +1,8 @@
 using OpenSearch.Net;
-using Serilog.Events;
 
 namespace AppFact.SerilogOpenSearchSink;
 
-internal class AppFactSerilogOpenSearchEvent : IRecoverable
+internal class AppFactSerilogOpenSearchEvent : IRecoverable<AppFactSerilogOpenSearchEvent>
 {
     public required DateTimeOffset Timestamp { get; init; }
     public required string Level { get; init; }
@@ -13,7 +12,7 @@ internal class AppFactSerilogOpenSearchEvent : IRecoverable
     public required Exception? Exception { get; init; }
 
 
-    public IRecoverable? Recover(IOpenSearchSerializer serializer)
+    public AppFactSerilogOpenSearchEvent? Recover(IOpenSearchSerializer serializer)
     {
         var ex = serializer.CanSerialize(Exception)
             ? Exception
@@ -33,7 +32,7 @@ internal class AppFactSerilogOpenSearchEvent : IRecoverable
         {
             if (serializer.CanSerialize(kv.Value))
             {
-                ev.Props.Add(kv.Key, kv.Value!);
+                ev.Props.Add(kv.Key, kv.Value);
                 continue;
             }
             
@@ -69,30 +68,8 @@ internal class AppFactSerilogOpenSearchEvent : IRecoverable
             ev.Props.Add(exKey, exMsg);
         }
 
-        return ev;
+        return serializer.CanSerialize(ev)
+            ? ev
+            : null;
     }
-    
-    
-    public static AppFactSerilogOpenSearchEvent MapEvent(LogEvent e)
-    {
-        var message = e.RenderMessage();
-        var props = e.Properties
-            .Where(p => p.Key != "EventId" && (p.Value is not ScalarValue { Value: null }))
-            .ToDictionary(k => k.Key, v => v.Value switch
-            {
-                ScalarValue scalar => scalar.Value!,
-                var value => value
-            });
-
-        return new AppFactSerilogOpenSearchEvent
-        {
-            Timestamp = e.Timestamp,
-            Level = e.Level.ToString(),
-            Message = message,
-            Props = props,
-            Template = e.MessageTemplate.Text,
-            Exception = e.Exception
-        };
-    }
-
 }

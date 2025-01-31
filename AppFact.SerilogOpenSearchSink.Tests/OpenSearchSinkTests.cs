@@ -1,5 +1,4 @@
 using FluentAssertions;
-using OpenSearch.Net;
 
 namespace AppFact.SerilogOpenSearchSink.Tests;
 
@@ -53,15 +52,10 @@ public class OpenSearchSinkTests : TestBase
         result.Documents.First().Abc.Should().Be("abc");
     }
 
-    private class TestEvent : IRecoverable
+    private class TestEvent
     {
         public required string Message { get; init; }
         public required string Abc { get; init; }
-
-        public IRecoverable? Recover(IOpenSearchSerializer serializer)
-        {
-            return null;
-        }
     }
 
     [Theory]
@@ -83,8 +77,7 @@ public class OpenSearchSinkTests : TestBase
 
         // Assert
         await Task.Delay(2000);
-        var result =
-            await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Size(150).Query(q => q.MatchAll()));
+        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Size(150).Query(q => q.MatchAll()));
         result.Total.Should().Be(100);
         var logs = result.Documents.Select(l => l.Message).ToHashSet();
         logs.Should().Equal(Enumerable.Range(0, 100).Select(i => $"test {i}").ToHashSet());
