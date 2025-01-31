@@ -38,11 +38,11 @@ public class TestFixture : IAsyncDisposable
                 var pingResponse = await client.PingAsync();
                 if (pingResponse.IsValid)
                     break;
-                await Task.Delay(100);
+                await Task.Delay(500);
             }
             catch (Exception)
             {
-                await Task.Delay(100);
+                await Task.Delay(500);
             }
         }
     }
