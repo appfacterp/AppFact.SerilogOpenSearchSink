@@ -1,0 +1,17 @@
+﻿{
+  TargetSite: Void MoveNext(),
+  Message: Outer Exception,
+  InnerException: {
+    TargetSite: Void MoveNext(),
+    Message: Inner Exceptioon,
+    InnerException: null,
+    HelpLink: null,
+    Source: AppFact.SerilogOpenSearchSink.Tests,
+    HResult: -2146233088,
+    StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.ExceptionSerializationTests.CanSerializeNestedException() in /old_root/@{ProjectDirectory}Serialization/ExceptionSerializationTests.cs:line 37
+  },
+  HelpLink: null,
+  Source: AppFact.SerilogOpenSearchSink.Tests,
+  HResult: -2146233088,
+  StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.ExceptionSerializationTests.CanSerializeNestedException() in /old_root/@{ProjectDirectory}Serialization/ExceptionSerializationTests.cs:line 43
+}

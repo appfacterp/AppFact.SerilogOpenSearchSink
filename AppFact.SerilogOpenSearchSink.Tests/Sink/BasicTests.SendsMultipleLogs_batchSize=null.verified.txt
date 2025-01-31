@@ -1,0 +1,1002 @@
+﻿[
+  {
+    Timestamp: DateTimeOffset_1,
+    Level: Information,
+    Message: test 0,
+    Template: test {I},
+    Props: {
+      I: 0
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_2,
+    Level: Information,
+    Message: test 1,
+    Template: test {I},
+    Props: {
+      I: 1
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_3,
+    Level: Information,
+    Message: test 2,
+    Template: test {I},
+    Props: {
+      I: 2
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_4,
+    Level: Information,
+    Message: test 3,
+    Template: test {I},
+    Props: {
+      I: 3
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_5,
+    Level: Information,
+    Message: test 4,
+    Template: test {I},
+    Props: {
+      I: 4
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_6,
+    Level: Information,
+    Message: test 5,
+    Template: test {I},
+    Props: {
+      I: 5
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_7,
+    Level: Information,
+    Message: test 6,
+    Template: test {I},
+    Props: {
+      I: 6
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_8,
+    Level: Information,
+    Message: test 7,
+    Template: test {I},
+    Props: {
+      I: 7
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_9,
+    Level: Information,
+    Message: test 8,
+    Template: test {I},
+    Props: {
+      I: 8
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_10,
+    Level: Information,
+    Message: test 9,
+    Template: test {I},
+    Props: {
+      I: 9
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_11,
+    Level: Information,
+    Message: test 10,
+    Template: test {I},
+    Props: {
+      I: 10
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_12,
+    Level: Information,
+    Message: test 11,
+    Template: test {I},
+    Props: {
+      I: 11
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_13,
+    Level: Information,
+    Message: test 12,
+    Template: test {I},
+    Props: {
+      I: 12
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_14,
+    Level: Information,
+    Message: test 13,
+    Template: test {I},
+    Props: {
+      I: 13
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_15,
+    Level: Information,
+    Message: test 14,
+    Template: test {I},
+    Props: {
+      I: 14
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_16,
+    Level: Information,
+    Message: test 15,
+    Template: test {I},
+    Props: {
+      I: 15
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_17,
+    Level: Information,
+    Message: test 16,
+    Template: test {I},
+    Props: {
+      I: 16
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_18,
+    Level: Information,
+    Message: test 17,
+    Template: test {I},
+    Props: {
+      I: 17
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_19,
+    Level: Information,
+    Message: test 18,
+    Template: test {I},
+    Props: {
+      I: 18
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_20,
+    Level: Information,
+    Message: test 19,
+    Template: test {I},
+    Props: {
+      I: 19
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_21,
+    Level: Information,
+    Message: test 20,
+    Template: test {I},
+    Props: {
+      I: 20
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_22,
+    Level: Information,
+    Message: test 21,
+    Template: test {I},
+    Props: {
+      I: 21
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_23,
+    Level: Information,
+    Message: test 22,
+    Template: test {I},
+    Props: {
+      I: 22
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_24,
+    Level: Information,
+    Message: test 23,
+    Template: test {I},
+    Props: {
+      I: 23
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_25,
+    Level: Information,
+    Message: test 24,
+    Template: test {I},
+    Props: {
+      I: 24
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_26,
+    Level: Information,
+    Message: test 25,
+    Template: test {I},
+    Props: {
+      I: 25
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_27,
+    Level: Information,
+    Message: test 26,
+    Template: test {I},
+    Props: {
+      I: 26
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_28,
+    Level: Information,
+    Message: test 27,
+    Template: test {I},
+    Props: {
+      I: 27
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_29,
+    Level: Information,
+    Message: test 28,
+    Template: test {I},
+    Props: {
+      I: 28
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_30,
+    Level: Information,
+    Message: test 29,
+    Template: test {I},
+    Props: {
+      I: 29
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_31,
+    Level: Information,
+    Message: test 30,
+    Template: test {I},
+    Props: {
+      I: 30
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_32,
+    Level: Information,
+    Message: test 31,
+    Template: test {I},
+    Props: {
+      I: 31
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_33,
+    Level: Information,
+    Message: test 32,
+    Template: test {I},
+    Props: {
+      I: 32
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_34,
+    Level: Information,
+    Message: test 33,
+    Template: test {I},
+    Props: {
+      I: 33
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_35,
+    Level: Information,
+    Message: test 34,
+    Template: test {I},
+    Props: {
+      I: 34
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_36,
+    Level: Information,
+    Message: test 35,
+    Template: test {I},
+    Props: {
+      I: 35
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_37,
+    Level: Information,
+    Message: test 36,
+    Template: test {I},
+    Props: {
+      I: 36
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_38,
+    Level: Information,
+    Message: test 37,
+    Template: test {I},
+    Props: {
+      I: 37
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_39,
+    Level: Information,
+    Message: test 38,
+    Template: test {I},
+    Props: {
+      I: 38
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_40,
+    Level: Information,
+    Message: test 39,
+    Template: test {I},
+    Props: {
+      I: 39
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_41,
+    Level: Information,
+    Message: test 40,
+    Template: test {I},
+    Props: {
+      I: 40
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_42,
+    Level: Information,
+    Message: test 41,
+    Template: test {I},
+    Props: {
+      I: 41
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_43,
+    Level: Information,
+    Message: test 42,
+    Template: test {I},
+    Props: {
+      I: 42
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_44,
+    Level: Information,
+    Message: test 43,
+    Template: test {I},
+    Props: {
+      I: 43
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_45,
+    Level: Information,
+    Message: test 44,
+    Template: test {I},
+    Props: {
+      I: 44
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_46,
+    Level: Information,
+    Message: test 45,
+    Template: test {I},
+    Props: {
+      I: 45
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_47,
+    Level: Information,
+    Message: test 46,
+    Template: test {I},
+    Props: {
+      I: 46
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_48,
+    Level: Information,
+    Message: test 47,
+    Template: test {I},
+    Props: {
+      I: 47
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_49,
+    Level: Information,
+    Message: test 48,
+    Template: test {I},
+    Props: {
+      I: 48
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_50,
+    Level: Information,
+    Message: test 49,
+    Template: test {I},
+    Props: {
+      I: 49
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_51,
+    Level: Information,
+    Message: test 50,
+    Template: test {I},
+    Props: {
+      I: 50
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_52,
+    Level: Information,
+    Message: test 51,
+    Template: test {I},
+    Props: {
+      I: 51
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_53,
+    Level: Information,
+    Message: test 52,
+    Template: test {I},
+    Props: {
+      I: 52
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_54,
+    Level: Information,
+    Message: test 53,
+    Template: test {I},
+    Props: {
+      I: 53
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_55,
+    Level: Information,
+    Message: test 54,
+    Template: test {I},
+    Props: {
+      I: 54
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_56,
+    Level: Information,
+    Message: test 55,
+    Template: test {I},
+    Props: {
+      I: 55
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_57,
+    Level: Information,
+    Message: test 56,
+    Template: test {I},
+    Props: {
+      I: 56
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_58,
+    Level: Information,
+    Message: test 57,
+    Template: test {I},
+    Props: {
+      I: 57
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_59,
+    Level: Information,
+    Message: test 58,
+    Template: test {I},
+    Props: {
+      I: 58
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_60,
+    Level: Information,
+    Message: test 59,
+    Template: test {I},
+    Props: {
+      I: 59
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_61,
+    Level: Information,
+    Message: test 60,
+    Template: test {I},
+    Props: {
+      I: 60
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_62,
+    Level: Information,
+    Message: test 61,
+    Template: test {I},
+    Props: {
+      I: 61
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_63,
+    Level: Information,
+    Message: test 62,
+    Template: test {I},
+    Props: {
+      I: 62
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_64,
+    Level: Information,
+    Message: test 63,
+    Template: test {I},
+    Props: {
+      I: 63
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_65,
+    Level: Information,
+    Message: test 64,
+    Template: test {I},
+    Props: {
+      I: 64
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_66,
+    Level: Information,
+    Message: test 65,
+    Template: test {I},
+    Props: {
+      I: 65
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_67,
+    Level: Information,
+    Message: test 66,
+    Template: test {I},
+    Props: {
+      I: 66
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_68,
+    Level: Information,
+    Message: test 67,
+    Template: test {I},
+    Props: {
+      I: 67
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_69,
+    Level: Information,
+    Message: test 68,
+    Template: test {I},
+    Props: {
+      I: 68
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_70,
+    Level: Information,
+    Message: test 69,
+    Template: test {I},
+    Props: {
+      I: 69
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_71,
+    Level: Information,
+    Message: test 70,
+    Template: test {I},
+    Props: {
+      I: 70
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_72,
+    Level: Information,
+    Message: test 71,
+    Template: test {I},
+    Props: {
+      I: 71
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_73,
+    Level: Information,
+    Message: test 72,
+    Template: test {I},
+    Props: {
+      I: 72
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_74,
+    Level: Information,
+    Message: test 73,
+    Template: test {I},
+    Props: {
+      I: 73
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_75,
+    Level: Information,
+    Message: test 74,
+    Template: test {I},
+    Props: {
+      I: 74
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_76,
+    Level: Information,
+    Message: test 75,
+    Template: test {I},
+    Props: {
+      I: 75
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_77,
+    Level: Information,
+    Message: test 76,
+    Template: test {I},
+    Props: {
+      I: 76
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_78,
+    Level: Information,
+    Message: test 77,
+    Template: test {I},
+    Props: {
+      I: 77
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_79,
+    Level: Information,
+    Message: test 78,
+    Template: test {I},
+    Props: {
+      I: 78
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_80,
+    Level: Information,
+    Message: test 79,
+    Template: test {I},
+    Props: {
+      I: 79
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_81,
+    Level: Information,
+    Message: test 80,
+    Template: test {I},
+    Props: {
+      I: 80
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_82,
+    Level: Information,
+    Message: test 81,
+    Template: test {I},
+    Props: {
+      I: 81
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_83,
+    Level: Information,
+    Message: test 82,
+    Template: test {I},
+    Props: {
+      I: 82
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_84,
+    Level: Information,
+    Message: test 83,
+    Template: test {I},
+    Props: {
+      I: 83
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_85,
+    Level: Information,
+    Message: test 84,
+    Template: test {I},
+    Props: {
+      I: 84
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_86,
+    Level: Information,
+    Message: test 85,
+    Template: test {I},
+    Props: {
+      I: 85
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_87,
+    Level: Information,
+    Message: test 86,
+    Template: test {I},
+    Props: {
+      I: 86
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_88,
+    Level: Information,
+    Message: test 87,
+    Template: test {I},
+    Props: {
+      I: 87
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_89,
+    Level: Information,
+    Message: test 88,
+    Template: test {I},
+    Props: {
+      I: 88
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_90,
+    Level: Information,
+    Message: test 89,
+    Template: test {I},
+    Props: {
+      I: 89
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_91,
+    Level: Information,
+    Message: test 90,
+    Template: test {I},
+    Props: {
+      I: 90
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_92,
+    Level: Information,
+    Message: test 91,
+    Template: test {I},
+    Props: {
+      I: 91
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_93,
+    Level: Information,
+    Message: test 92,
+    Template: test {I},
+    Props: {
+      I: 92
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_94,
+    Level: Information,
+    Message: test 93,
+    Template: test {I},
+    Props: {
+      I: 93
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_95,
+    Level: Information,
+    Message: test 94,
+    Template: test {I},
+    Props: {
+      I: 94
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_96,
+    Level: Information,
+    Message: test 95,
+    Template: test {I},
+    Props: {
+      I: 95
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_97,
+    Level: Information,
+    Message: test 96,
+    Template: test {I},
+    Props: {
+      I: 96
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_98,
+    Level: Information,
+    Message: test 97,
+    Template: test {I},
+    Props: {
+      I: 97
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_99,
+    Level: Information,
+    Message: test 98,
+    Template: test {I},
+    Props: {
+      I: 98
+    },
+    Exception: null
+  },
+  {
+    Timestamp: DateTimeOffset_100,
+    Level: Information,
+    Message: test 99,
+    Template: test {I},
+    Props: {
+      I: 99
+    },
+    Exception: null
+  }
+]

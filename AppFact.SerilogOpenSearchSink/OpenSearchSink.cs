@@ -1,4 +1,6 @@
 using System.Collections.Concurrent;
+using System.Reflection;
+using AppFact.SerilogOpenSearchSink.Serialization;
 using OpenSearch.Client;
 using Serilog.Core;
 using Serilog.Debugging;
@@ -42,9 +44,18 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         _queue = options.QueueSizeLimit is not null
             ? new(new ConcurrentQueue<LogEvent>(), options.QueueSizeLimit.Value)
             : new(new ConcurrentQueue<LogEvent>());
-
+        
         // init opensearch client and check connection
         Client = new OpenSearchClient(settings);
+
+        var outerSerializer = Client.SourceSerializer;
+        var innerSerializer = outerSerializer.GetType().GetField("_serializer", BindingFlags.NonPublic | BindingFlags.Instance)
+            !.GetValue(outerSerializer);
+        
+        if (innerSerializer is not OpenSearchSerializer)
+            throw new Exception("OpenSearchSink requires OpenSearchSerializer to be used as the source serializer");
+            
+        
         var pingResponse = Client.Ping();
         if (!pingResponse.IsValid)
         {

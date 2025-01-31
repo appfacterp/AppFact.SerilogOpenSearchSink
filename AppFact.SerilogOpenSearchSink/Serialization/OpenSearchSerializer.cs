@@ -1,21 +1,25 @@
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using OpenSearch.Client;
 using OpenSearch.Net;
 
-namespace AppFact.SerilogOpenSearchSink;
+namespace AppFact.SerilogOpenSearchSink.Serialization;
 
 /// <summary>
 /// Implementation of <see cref="IOpenSearchSerializer"/> that uses <see cref="JsonSerializer"/> for serialization.
 /// </summary>
 public class OpenSearchSerializer : IOpenSearchSerializer
 {
-    private static OpenSearchSerializer Default { get; } = new(new JsonSerializerOptions());
+    /// <summary>
+    /// Singleton instance of <see cref="OpenSearchSerializer"/>.
+    /// </summary>
+    public static OpenSearchSerializer Instance { get; } = new();
 
-/// <summary>
+    /// <summary>
     /// Factory method for creating a <see cref="OpenSearchSerializer"/> instance.
     /// </summary>
     public static ConnectionSettings.SourceSerializerFactory SourceSerializerFactory
-        => (_, _) => Default;
+        => (_, _) => Instance;
 
 
     private readonly JsonSerializerOptions _options;
@@ -23,10 +27,13 @@ public class OpenSearchSerializer : IOpenSearchSerializer
     /// <summary>
     /// Creates a new instance of <see cref="OpenSearchSerializer"/>.
     /// </summary>
-    /// <param name="options"></param>
-    public OpenSearchSerializer(JsonSerializerOptions options)
+    private OpenSearchSerializer()
     {
-        _options = options;
+        _options = new JsonSerializerOptions()
+        {
+            Converters = { new UnserializableObjectConverterFactory() },
+            ReferenceHandler = ReferenceHandler.IgnoreCycles
+        };
     }
 
     /// <inheritdoc />

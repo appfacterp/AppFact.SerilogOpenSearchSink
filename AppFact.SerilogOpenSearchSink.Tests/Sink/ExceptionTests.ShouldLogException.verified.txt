@@ -1,0 +1,17 @@
+﻿[
+  {
+    Timestamp: DateTimeOffset_1,
+    Level: Error,
+    Message: An error occurred,
+    Template: An error occurred,
+    Exception: {
+      TargetSite: Void MoveNext(),
+      Message: uwu,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Sink.ExceptionTests.ShouldLogException() in /old_root/@{ProjectDirectory}Sink/ExceptionTests.cs:line 18
+    }
+  }
+]

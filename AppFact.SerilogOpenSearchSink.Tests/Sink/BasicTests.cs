@@ -1,10 +1,10 @@
 using FluentAssertions;
 
-namespace AppFact.SerilogOpenSearchSink.Tests;
+namespace AppFact.SerilogOpenSearchSink.Tests.Sink;
 
-public class OpenSearchSinkTests : TestBase
+public class BasicTests : TestBase
 {
-    public OpenSearchSinkTests(TestFixture f) : base(f)
+    public BasicTests(TestFixture f) : base(f)
     {
     }
 
@@ -13,17 +13,17 @@ public class OpenSearchSinkTests : TestBase
     {
         // Arrange
         var (logger, sink) = F.GetLogger();
-        var message = Guid.NewGuid().ToString();
+        var message = "hello";
 
         // Act
         // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
         logger.Information(message);
+        sink.Dispose();
+        await Task.Delay(2000);
 
         // Assert
-        await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Query(q => q.MatchAll()));
-        result.Total.Should().Be(1);
-        result.Documents.First().Message.Should().Be(message);
+        var result = await sink.Client.SearchAllAsJson();
+        await VerifyJson(result.ToJsonString());
     }
 
     [Fact]
@@ -41,15 +41,13 @@ public class OpenSearchSinkTests : TestBase
         });
 
         // Act
-        // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
         logger.Information("test");
+        sink.Dispose();
+        await Task.Delay(2000);
 
         // Assert
-        await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<TestEvent>(s => s.Query(q => q.MatchAll()));
-        result.Total.Should().Be(1);
-        result.Documents.First().Message.Should().Be("test test234");
-        result.Documents.First().Abc.Should().Be("abc");
+        var result = await sink.Client.SearchAllAsJson();
+        await VerifyJson(result.ToJsonString());
     }
 
     private class TestEvent
@@ -72,15 +70,15 @@ public class OpenSearchSinkTests : TestBase
 
         // Act
         for (var i = 0; i < 100; i++)
-            // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
             logger.Information("test {I}", i);
+        
+        sink.Dispose();
+        await Task.Delay(2000);
 
         // Assert
-        await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Size(150).Query(q => q.MatchAll()));
-        result.Total.Should().Be(100);
-        var logs = result.Documents.Select(l => l.Message).ToHashSet();
-        logs.Should().Equal(Enumerable.Range(0, 100).Select(i => $"test {i}").ToHashSet());
+        var result = await sink.Client.SearchAllAsJson();
+        result.Count.Should().Be(100);
+        await VerifyJson(result.ToJsonString()).UseParameters(batchSize);
     }
 
     [Fact]
@@ -95,14 +93,12 @@ public class OpenSearchSinkTests : TestBase
         await Task.Delay(1000); // wait for first tick to pass
 
         // Act
-        // ReSharper disable once TemplateIsNotCompileTimeConstantProblem
         logger.Information("test");
         sink.OnProcessExit(null!, null!);
+        await Task.Delay(2000);
 
         // Assert
-        await Task.Delay(2000);
-        var result = await sink.Client.SearchAsync<AppFactSerilogOpenSearchEvent>(s => s.Query(q => q.MatchAll()));
-        result.Total.Should().Be(1);
-        result.Documents.First().Message.Should().Be("test");
+        var result = await sink.Client.SearchAllAsJson();
+        await VerifyJson(result.ToJsonString());
     }
 }

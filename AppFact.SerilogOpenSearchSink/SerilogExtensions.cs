@@ -1,3 +1,4 @@
+using AppFact.SerilogOpenSearchSink.Serialization;
 using OpenSearch.Client;
 using OpenSearch.Net;
 using Serilog;

@@ -1,0 +1,2002 @@
+﻿[
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  },
+  {
+    Timestamp: Date_MinValue,
+    Level: hi,
+    Message: uwu,
+    Template: owo,
+    Props: {
+      a: {
+        Name: b
+      }
+    },
+    Exception: {
+      TargetSite: AppFact.SerilogOpenSearchSink.AppFactSerilogOpenSearchEvent EventFactory(),
+      Message: hello,
+      InnerException: null,
+      HelpLink: null,
+      Source: AppFact.SerilogOpenSearchSink.Tests,
+      HResult: -2146233088,
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+    }
+  }
+]

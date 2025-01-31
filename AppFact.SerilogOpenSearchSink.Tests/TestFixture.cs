@@ -1,3 +1,5 @@
+using System.Text.Json.Nodes;
+using AppFact.SerilogOpenSearchSink.Serialization;
 using DotNet.Testcontainers.Builders;
 using DotNet.Testcontainers.Containers;
 using OpenSearch.Client;
@@ -28,27 +30,31 @@ public class TestFixture : IAsyncDisposable
         await _container.StartAsync();
         for (var i = 0;; i++)
         {
-            if (i > 30) throw new Exception("OpenSearch container did not start in time");
+            if (i > 300) throw new Exception("OpenSearch container did not start in time");
             try
             {
                 var client = new OpenSearchClient(GetConnectionSettings());
                 var pingResponse = await client.PingAsync();
                 if (pingResponse.IsValid)
                     break;
-                await Task.Delay(1000);
+                await Task.Delay(100);
             }
             catch (Exception)
             {
-                await Task.Delay(1000);
+                await Task.Delay(100);
             }
         }
     }
 
     private ConnectionSettings GetConnectionSettings()
     {
+        var uri = new Uri("https://" + _container.Hostname + ":" + _container.GetMappedPublicPort(9200));
+        var pool = new SingleNodeConnectionPool(uri);
         var connSettings =
             new ConnectionSettings(
-                new Uri("https://" + _container.Hostname + ":" + _container.GetMappedPublicPort(9200)));
+                pool,
+                OpenSearchSerializer.SourceSerializerFactory
+            );
         connSettings.ServerCertificateValidationCallback((_, _, _, _) => true);
         connSettings.BasicAuthentication("admin", "Kec4##Dd2");
         return connSettings;
@@ -81,5 +87,28 @@ public class TestBase : IClassFixture<TestFixture>
     public TestBase(TestFixture f)
     {
         F = f;
+    }
+}
+
+public static class OpenSearchClientExtensions
+{
+    public static async Task<IReadOnlyCollection<JsonObject>> SearchAll(this IOpenSearchClient client)
+    {
+        var result = await client.SearchAsync<JsonObject>(s => s.Size(420).Query(q => q.MatchAll()));
+        Assert.True(result.IsValid);
+        return result.Documents;
+    }
+
+
+    public static async Task<JsonArray> SearchAllAsJson(this IOpenSearchClient client)
+    {
+        var docs = await client.SearchAll();
+        var arr = new JsonArray();
+        foreach (var doc in docs)
+        {
+            arr.Add(doc);
+        }
+
+        return arr;
     }
 }
