@@ -7,6 +7,8 @@ pool:
 steps:
 - script: dotnet build -c Release
   displayName: build
+- script: docker pull opensearchproject/opensearch
+  displayName: cache docker image opensearchproject/opensearch
 - task: DotNetCoreCLI@2
   displayName: test
   inputs:
