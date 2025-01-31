@@ -38,7 +38,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         options ??= new OpenSearchSinkOptions();
         _maxBatchSize = options.MaxBatchSize;
         _tick = options.Tick;
-        _mapper = options.Mapper ?? MapEvent;
+        _mapper = options.Mapper ?? AppFactSerilogOpenSearchEvent.MapEvent;
         _queue = options.QueueSizeLimit is not null
             ? new(new ConcurrentQueue<LogEvent>(), options.QueueSizeLimit.Value)
             : new(new ConcurrentQueue<LogEvent>());
@@ -160,29 +160,6 @@ public class OpenSearchSink : ILogEventSink, IDisposable
 
         return true;
     }
-
-    private static object MapEvent(LogEvent e)
-    {
-        var message = e.RenderMessage();
-        var props = e.Properties
-            .Where(p => p.Key != "EventId" && (p.Value is not ScalarValue { Value: null }))
-            .ToDictionary(k => k.Key, v => v.Value switch
-            {
-                ScalarValue scalar => scalar.Value!,
-                var value => value
-            });
-
-        return new AppFactSerilogOpenSearchEvent
-        {
-            Timestamp = e.Timestamp,
-            Level = e.Level.ToString(),
-            Message = message,
-            Props = props,
-            Template = e.MessageTemplate.Text,
-            Exception = e.Exception
-        };
-    }
-
 
     internal void OnProcessExit(object sender, EventArgs args)
     {
