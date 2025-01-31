@@ -12,7 +12,7 @@ public class SimpleSerializationTests : SerializationTestBase
         var json = Serialize(ev);
 
         // Assert
-        await VerifyJson(json);
+        await VerifyJson(json.HandleSolutionPathsInString());
     }
 
     [Fact]
@@ -26,6 +26,6 @@ public class SimpleSerializationTests : SerializationTestBase
         var json = Serialize(events);
 
         // Assert
-        await VerifyJson(json);
+        await VerifyJson(json.HandleSolutionPathsInString());
     }
 }

@@ -16,7 +16,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -36,7 +36,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -56,7 +56,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -76,7 +76,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -96,7 +96,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -116,7 +116,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -136,7 +136,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -156,7 +156,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -176,7 +176,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -196,7 +196,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -216,7 +216,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -236,7 +236,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -256,7 +256,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -276,7 +276,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -296,7 +296,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -316,7 +316,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -336,7 +336,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -356,7 +356,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -376,7 +376,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -396,7 +396,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -416,7 +416,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -436,7 +436,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -456,7 +456,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -476,7 +476,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -496,7 +496,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -516,7 +516,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -536,7 +536,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -556,7 +556,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -576,7 +576,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -596,7 +596,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -616,7 +616,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -636,7 +636,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -656,7 +656,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -676,7 +676,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -696,7 +696,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -716,7 +716,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -736,7 +736,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -756,7 +756,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -776,7 +776,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -796,7 +796,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -816,7 +816,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -836,7 +836,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -856,7 +856,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -876,7 +876,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -896,7 +896,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -916,7 +916,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -936,7 +936,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -956,7 +956,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -976,7 +976,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -996,7 +996,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1016,7 +1016,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1036,7 +1036,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1056,7 +1056,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1076,7 +1076,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1096,7 +1096,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1116,7 +1116,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1136,7 +1136,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1156,7 +1156,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1176,7 +1176,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1196,7 +1196,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1216,7 +1216,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1236,7 +1236,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1256,7 +1256,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1276,7 +1276,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1296,7 +1296,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1316,7 +1316,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1336,7 +1336,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1356,7 +1356,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1376,7 +1376,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1396,7 +1396,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1416,7 +1416,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1436,7 +1436,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1456,7 +1456,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1476,7 +1476,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1496,7 +1496,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1516,7 +1516,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1536,7 +1536,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1556,7 +1556,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1576,7 +1576,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1596,7 +1596,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1616,7 +1616,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1636,7 +1636,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1656,7 +1656,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1676,7 +1676,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1696,7 +1696,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1716,7 +1716,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1736,7 +1736,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1756,7 +1756,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1776,7 +1776,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1796,7 +1796,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1816,7 +1816,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1836,7 +1836,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1856,7 +1856,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1876,7 +1876,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1896,7 +1896,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1916,7 +1916,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1936,7 +1936,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1956,7 +1956,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1976,7 +1976,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   },
   {
@@ -1996,7 +1996,7 @@
       HelpLink: null,
       Source: AppFact.SerilogOpenSearchSink.Tests,
       HResult: -2146233088,
-      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in /old_root/@{ProjectDirectory}Serialization/SerializationTestBase.cs:line 24
+      StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.SerializationTestBase.EventFactory() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/SerializationTestBase.cs:line 24
     }
   }
 ]

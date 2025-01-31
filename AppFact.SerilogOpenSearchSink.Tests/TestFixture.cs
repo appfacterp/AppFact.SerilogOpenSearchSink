@@ -15,6 +15,7 @@ public class TestFixture : IAsyncDisposable
 
     public TestFixture()
     {
+        Util.GetSolutionDirectory();
         Task.Run(InitializeAsync).Wait();
     }
 
@@ -87,28 +88,5 @@ public class TestBase : IClassFixture<TestFixture>
     public TestBase(TestFixture f)
     {
         F = f;
-    }
-}
-
-public static class OpenSearchClientExtensions
-{
-    public static async Task<IReadOnlyCollection<JsonObject>> SearchAll(this IOpenSearchClient client)
-    {
-        var result = await client.SearchAsync<JsonObject>(s => s.Size(420).Query(q => q.MatchAll()));
-        Assert.True(result.IsValid);
-        return result.Documents;
-    }
-
-
-    public static async Task<JsonArray> SearchAllAsJson(this IOpenSearchClient client)
-    {
-        var docs = await client.SearchAll();
-        var arr = new JsonArray();
-        foreach (var doc in docs)
-        {
-            arr.Add(doc);
-        }
-
-        return arr;
     }
 }

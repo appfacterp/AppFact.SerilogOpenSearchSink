@@ -11,7 +11,7 @@ public class ExceptionSerializationTests : SerializationTestBase
         try
         {
             // unthrown exception is boring to serialize
-            throw new Exception("Test exception");
+            throw new Exception("Test exception1");
         }
         catch (Exception e)
         {
@@ -22,7 +22,7 @@ public class ExceptionSerializationTests : SerializationTestBase
         var serialized = Serialize(exception);
 
         // Assert
-        await VerifyJson(serialized);
+        await VerifyJson(serialized.HandleSolutionPathsInString());
     }
 
     [Fact]
@@ -52,6 +52,6 @@ public class ExceptionSerializationTests : SerializationTestBase
         var serialized = Serialize(exception);
 
         // Assert
-        await VerifyJson(serialized);
+        await VerifyJson(serialized.HandleSolutionPathsInString());
     }
 }

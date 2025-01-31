@@ -1,9 +1,9 @@
 ﻿{
   TargetSite: Void MoveNext(),
-  Message: Test exception,
+  Message: Test exception1,
   InnerException: null,
   HelpLink: null,
   Source: AppFact.SerilogOpenSearchSink.Tests,
   HResult: -2146233088,
-  StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.ExceptionSerializationTests.CanSerializeSimpleException() in /old_root/@{ProjectDirectory}Serialization/ExceptionSerializationTests.cs:line 14
+  StackTrace:    at AppFact.SerilogOpenSearchSink.Tests.Serialization.ExceptionSerializationTests.CanSerializeSimpleException() in {SolutionDirectory}/AppFact.SerilogOpenSearchSink.Tests/Serialization/ExceptionSerializationTests.cs:line 14
 }
