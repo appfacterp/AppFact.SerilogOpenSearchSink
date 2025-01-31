@@ -53,7 +53,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
             !.GetValue(outerSerializer);
         
         if (innerSerializer is not OpenSearchSerializer)
-            throw new Exception("OpenSearchSink requires OpenSearchSerializer to be used as the source serializer");
+            throw new Exception("OpenSearchSink requires OpenSearchSerializer to be used as the source serializer. See Documentation for more information.");
             
         
         var pingResponse = Client.Ping();

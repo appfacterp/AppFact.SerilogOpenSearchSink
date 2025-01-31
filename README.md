@@ -20,7 +20,17 @@ var builder = new LoggerConfiguration();
 // mathod 1
 // configure via IConnectionSettingsValues provided by OpenSeaerch.
 // provides the most flexibility but won't work with with Serilog.Settings.Configuration
-var cs = new ConnectionSettings(new Uri("http://localhost:9200"));
+var uri = new Uri(new Uri("http://localhost:9200"));
+var pool = new SingleNodeConnectionPool(uri);
+var cs = new ConnectionSettings(pool, 
+    
+        // this is necessary to ensure that the sink can serialize the log event
+        // without this, exceptions can not be serialized and will be lost
+        // other data may also be lost
+        // to prevent data logs, this version of AppFact.SerilogOpenSearchSink will throw an exception,
+        // if the serializer is not set up correctly
+        AppFact.SerilogOpenSearchSink.Serialization.OpenSearchSerializer.SourceSerializerFactory
+    );
 // configure cs as needed, e.g.
 cs.DefaultIndex("logs");
 cs.BasicAuthentication("username", "password");
