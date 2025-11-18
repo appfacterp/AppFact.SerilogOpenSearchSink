@@ -21,6 +21,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
     private bool _processExitRegistered = false;
     private readonly CancellationTokenSource _cancellationTokenSource = new();
     private readonly Task _daemon;
+    private readonly Func<string>? _indexNameFactory;
 
     /// <summary>
     /// Mapper used to transform a <see cref="LogEvent"/> into an object that will be sent to OpenSearch.
@@ -44,18 +45,21 @@ public class OpenSearchSink : ILogEventSink, IDisposable
         _queue = options.QueueSizeLimit is not null
             ? new(new ConcurrentQueue<LogEvent>(), options.QueueSizeLimit.Value)
             : new(new ConcurrentQueue<LogEvent>());
-        
+        _indexNameFactory = options.IndexNameFactory;
+
         // init opensearch client and check connection
         Client = new OpenSearchClient(settings);
 
         var outerSerializer = Client.SourceSerializer;
-        var innerSerializer = outerSerializer.GetType().GetField("_serializer", BindingFlags.NonPublic | BindingFlags.Instance)
+        var innerSerializer = outerSerializer.GetType()
+            .GetField("_serializer", BindingFlags.NonPublic | BindingFlags.Instance)
             !.GetValue(outerSerializer);
-        
+
         if (innerSerializer is not OpenSearchSerializer)
-            throw new Exception("OpenSearchSink requires OpenSearchSerializer to be used as the source serializer. See Documentation for more information.");
-            
-        
+            throw new Exception(
+                "OpenSearchSink requires OpenSearchSerializer to be used as the source serializer. See Documentation for more information.");
+
+
         var pingResponse = Client.Ping();
         if (!pingResponse.IsValid)
         {
@@ -154,7 +158,7 @@ public class OpenSearchSink : ILogEventSink, IDisposable
             // map events to custom format (default is the private Event class below, mapped via the MapEvent delegate)
             // so that OpenSearch can index them
             var result = await Client.IndexManyAsync(
-                    events.Select(e => _mapper(e)).ToList())
+                    events.Select(e => _mapper(e)).ToList(), index: _indexNameFactory?.Invoke())
                 .ConfigureAwait(false);
             // log errors if any
             if (result.Errors || !result.IsValid)

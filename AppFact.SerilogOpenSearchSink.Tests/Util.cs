@@ -28,17 +28,20 @@ public static class Util
 
 public static class OpenSearchClientExtensions
 {
-    public static async Task<IReadOnlyCollection<JsonObject>> SearchAll(this IOpenSearchClient client)
+    public static async Task<IReadOnlyCollection<JsonObject>> SearchAll(this IOpenSearchClient client,
+        string? index = null)
     {
-        var result = await client.SearchAsync<JsonObject>(s => s.Size(420).Query(q => q.MatchAll()));
+        var result = await client.SearchAsync<JsonObject>(s =>
+            s.Size(420).Query(q => q.MatchAll()).Index(index ?? client.ConnectionSettings.DefaultIndex)
+        );
         Assert.True(result.IsValid);
         return result.Documents;
     }
 
 
-    public static async Task<JsonArray> SearchAllAsJson(this IOpenSearchClient client)
+    public static async Task<JsonArray> SearchAllAsJson(this IOpenSearchClient client, string? index = null)
     {
-        var docs = await client.SearchAll();
+        var docs = await client.SearchAll(index);
         var arr = new JsonArray();
         foreach (var doc in docs)
         {

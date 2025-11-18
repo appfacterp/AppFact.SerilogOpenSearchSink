@@ -29,4 +29,10 @@ public class OpenSearchSinkOptions
     /// should the sink suppress throwing an exception if the ping to the OpenSearch cluster fails on startup. this has no effect if the ping fails after the sink has started
     /// </summary>
     public bool SuppressThrowOnFailedInit { get; set; } = false;
+
+    /// <summary>
+    /// Factory function to create the index name for each batch. If not set, the default index configured in the ConnectionSettings will be used.
+    /// This can be used to append the date to the index name, e.g. "logs-2024-01-01".
+    /// </summary>
+    public Func<string>? IndexNameFactory { get; set; }
 }
