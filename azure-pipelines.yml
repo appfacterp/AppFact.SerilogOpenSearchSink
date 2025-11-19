@@ -1,26 +1,22 @@
 trigger:
-- main
+  - main
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: dotnet build -c Release
-  displayName: build
-- script: docker pull opensearchproject/opensearch
-  displayName: cache docker image opensearchproject/opensearch
-- task: DotNetCoreCLI@2
-  displayName: test
-  inputs:
-    command: 'test'
-    arguments: '-c Release --no-build'
-- script: dotnet pack -c Release --no-build -o "$(Build.ArtifactStagingDirectory)"
-  displayName: build
-- task: NuGetCommand@2
-  continueOnError: true
-  displayName: push to nuget.org
-  inputs:
-    command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    nuGetFeedType: 'external'
-    publishFeedCredentials: 'NuGet.Org'
+  - script: dotnet build -c Release
+    displayName: build
+  - script: docker pull opensearchproject/opensearch
+    displayName: cache docker image opensearchproject/opensearch
+  - task: DotNetCoreCLI@2
+    displayName: test
+    inputs:
+      command: 'test'
+      arguments: '-c Release --no-build'
+  - script: dotnet pack -c Release --no-build -o "$(Build.ArtifactStagingDirectory)"
+    displayName: build
+  - script: dotnet nuget push --source https://api.nuget.org/v3/index.json --api-key $NUGET_ORG_API_KEY $(Build.ArtifactStagingDirectory)/*.nupkg
+    displayName: push
+    env:
+      NUGET_ORG_API_KEY: $(nuget-org-api-key)

@@ -9,7 +9,7 @@
         <Authors>Kirill Polferov</Authors>
         <Company>Fischer &amp; Consultants GmbH</Company>
 
-        <Version>0.0.13</Version>
+        <Version>0.0.14</Version>
 
         <RepositoryUrl>https://github.com/appfacterp/AppFact.SerilogOpenSearchSink.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
